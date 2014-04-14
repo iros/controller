@@ -12,11 +12,11 @@ exports.update = require('./lib/update');
 exports.extend = function (methods) {
   return _.extend({
     create: exports.create(),
-    serialize: exports.serialize,
-    update: exports.update,
     destroy: exports.destroy,
     destroyCascade: exports.destroyCascade,
-    findById: exports.findById,
-    findMany: exports.findMany
+    findById: exports.findById(),
+    findMany: exports.findMany(),
+    serialize: exports.serialize,
+    update: exports.update
   }, methods);
 };
