@@ -1,3 +1,6 @@
+v0.2.0:
+  date: 2014-05-01
+    - Put intended response code on res.code and intended data to serialize on res.data
 v0.1.5:
   date: 2014-04-30
   changes:

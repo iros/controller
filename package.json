@@ -1,7 +1,7 @@
 {
   "name": "endpoints-controller",
   "description": "controller layer for the endpoints framework.",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "homepage": "https://github.com/endpoints/controller",
   "author": {
     "name": "Tyler Kellen",
